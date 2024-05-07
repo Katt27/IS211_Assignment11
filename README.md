@@ -1,7 +1,7 @@
 # IS211_Assignment11
 IS211_Assignment11
 
-#This repository contains a simple Flask web application that serves as a To-Do list. Users can add tasks with descriptions, assign them to an email address, and categorize them by priority (Low, Medium, High). The list can also be cleared entirely via a dedicated button.
+This repository contains a simple Flask web application that serves as a To-Do list. Users can add tasks with descriptions, assign them to an email address, and categorize them by priority (Low, Medium, High). The list can also be cleared entirely via a dedicated button.
 
 Features
 Add To-Do items with task descriptions, responsible person's email, and priority level.
