@@ -18,3 +18,10 @@ Before you begin, ensure you have Python installed on your system. You can downl
 
 ```bash
 pip install Flask
+
+### Installation
+Follow these steps to get your development environment running:
+
+Clone the repository:
+git clone https://github.com/Katt27/IS211_Assignment11.git
+cd IS211_Assignment11
