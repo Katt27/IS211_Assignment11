@@ -1,41 +1,46 @@
-# IS211_Assignment11
-IS211_Assignment11
-
-This repository contains a simple Flask web application that serves as a To-Do list. Users can add tasks with descriptions, assign them to an email address, and categorize them by priority (Low, Medium, High). The list can also be cleared entirely via a dedicated button.
+This repository hosts a simple Flask web application for managing a To-Do list. It allows users to add tasks, specify the email of the person responsible, and set a priority level (Low, Medium, High). Users can also clear the entire list with a single click.
 
 Features
-Add To-Do items with task descriptions, responsible person's email, and priority level.
-View all added To-Do items in a list.
-Clear all tasks from the To-Do list.
+Add To-Do Items: Add tasks with descriptions, assign them to an email, and set a priority level.
+View To-Do List: All current tasks are displayed in a simple table format.
+Clear To-Do List: A single button to clear all entries from the list.
 Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will guide you through setting up the project on your local machine for development and testing purposes.
 
 Prerequisites
-You need Python and Flask installed on your computer. If you don't have Python installed, you can download it from python.org. To install Flask, run the following command:
+Before you begin, ensure you have Python installed on your system. You can download Python here. You will also need Flask, which can be installed using pip:
 
-Copy code:
+bash
+Copy code
 pip install Flask
+Installation
+Follow these steps to get your development environment running:
 
-Installing:
-Clone the repository to your local machine:
-
-Copy code:
+Clone the repository:
+bash
+Copy code
 git clone https://github.com/Katt27/IS211_Assignment11.git
 cd IS211_Assignment11
-
-Ensure that the index.html file is located inside a folder named templates in the same directory as todoapp.py. If not, create the folder and move the file:
+Set up the directory structure:
+Ensure that index.html is located in a templates folder within the same directory as todoapp.py. If this folder does not exist, create it and move the file:
 bash
-
-Copy code:
+Copy code
 mkdir templates
 mv index.html templates/index.html
 Running the Application
-To run the application, execute the following command in the root directory of the project:
+To run the application, use the following command in the project root directory:
 
-Copy code:
+bash
+Copy code
 python todoapp.py
-This will start a web server on http://localhost:5000. Open your web browser and go to this address to use the application.
+The application will be accessible via http://localhost:5000 in your web browser.
 
-Using the Application:
-To Add a To-Do Item: Fill out the form on the main page with the task description, email of the responsible person, and select the priority. Click the "Add To-Do Item" button to submit.
-To Clear the List: Click the "Clear" button on the main page to remove all tasks from the list.
+Usage
+Adding a To-Do Item: Complete the form on the homepage with the task's details, the responsible person's email, and the task's priority. Submit by clicking "Add To-Do Item".
+Clearing the List: Click the "Clear" button to remove all tasks from the display.
+Contributing
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change. Please ensure to update tests as appropriate.
+
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
